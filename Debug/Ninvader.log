@@ -1,0 +1,36 @@
+﻿2015/10/19 1:39:06 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "D:\GameDevelopments\C++\Ninvader\Ninvader.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MainScene.cpp TitleScene.cpp
+         MainScene.cpp
+         d:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>d:\gamedevelopments\c++\ninvader\random.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>d:\gamedevelopments\c++\ninvader\mainscene.cpp(119): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+     1>d:\gamedevelopments\c++\ninvader\mainscene.cpp(137): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+         コードを生成中...
+         スキップ中... (関連する変更は検出されませんでした)
+         TitleScene.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GameDevelopments\C++\Ninvader\Debug\Ninvader.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\GameDevelopments\C++\Ninvader\Debug\Ninvader.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GameDevelopments\C++\Ninvader\Debug\Ninvader.lib" /MACHINE:X86 Debug\Ninvader.res
+         Debug\Camera.obj
+         Debug\Cursor.obj
+         Debug\Debug.obj
+         Debug\Font.obj
+         Debug\GdkDx9.obj
+         Debug\Input.obj
+         Debug\Int2.obj
+         Debug\Main.obj
+         Debug\MainScene.obj
+         Debug\Mesh.obj
+         Debug\Particle.obj
+         Debug\Random.obj
+         Debug\Render.obj
+         Debug\Scene.obj
+         Debug\Screen.obj
+         Debug\TitleScene.obj
+         Ninvader.vcxproj -> D:\GameDevelopments\C++\Ninvader\Debug\Ninvader.exe
+     1>プロジェクト "D:\GameDevelopments\C++\Ninvader\Ninvader.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.59
